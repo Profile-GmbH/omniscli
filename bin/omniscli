@@ -145,6 +145,9 @@ else
 	wait "${liOmnisPID}"
 	liOmnisExitStatus="$?"
 
+	# Sleep for a second to let the stderr and stdout tails finish
+        sleep 1
+
 	# Terminate the tail processes. Since we disowned them, we won't get messages that they were killed
 	kill ${lnStdoutTailPID}
 	kill ${lnStderrTailPID}
