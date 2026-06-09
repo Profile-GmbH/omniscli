@@ -11,7 +11,7 @@ Else
 End If
 
 # Write to the file
-Do loConsoleFile.$writecharacter(kUniTypeAnsiLatin1,pcMessage,kTrue)
+Do loConsoleFile.$writecharacter(kUniTypeUTF8,pcMessage,kTrue,kTrue)
 
 # Close file
 Do loConsoleFile.$closefile()
