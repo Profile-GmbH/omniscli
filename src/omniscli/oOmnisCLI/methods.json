@@ -2,6 +2,7 @@
 	{
 		"name": "$==OmnisCLI Public==",
 		"order": 1,
+		"desc": "The basic CLI-Object",
 		"pvardefs": [
 
 		],

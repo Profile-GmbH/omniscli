@@ -2,7 +2,7 @@
 	"classtype": "kObjectclass",
 	"omnisversion": "11.1",
 	"omnisbuild": 111037255,
-	"internalversion": 222,
+	"internalversion": 223,
 	"designtaskname": "",
 	"cvardefs": [
 
@@ -30,7 +30,7 @@
 		"editordata": "",
 		"external": true,
 		"issupercomponent": false,
-		"moddate": "2026-06-09 22:17:06",
+		"moddate": "2026-06-10 12:57:56",
 		"selfcontained": false,
 		"showascheckedout": true,
 		"userinfo": "",
